@@ -1,0 +1,27 @@
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side{
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div{
+    margin-right: 25px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper a{
+    color:darkgreen;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px black;
+}
+
+.nav-link-wrapper a:hover{
+    color: black;
+}
